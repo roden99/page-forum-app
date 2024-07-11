@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Like;
+use App\Models\Supplier;
 use Illuminate\Http\Request;
 
-class LikeController extends Controller
+class SupplierController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class LikeController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Like $like)
+    public function show(Supplier $supplier)
     {
         //
     }
@@ -42,7 +42,7 @@ class LikeController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Like $like)
+    public function edit(Supplier $supplier)
     {
         //
     }
@@ -50,7 +50,7 @@ class LikeController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Like $like)
+    public function update(Request $request, Supplier $supplier)
     {
         //
     }
@@ -58,7 +58,7 @@ class LikeController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Like $like)
+    public function destroy(Supplier $supplier)
     {
         //
     }

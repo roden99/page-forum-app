@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\Question;
+use App\Models\Question;
 use Illuminate\Http\Request;
 
 class QuestionController extends Controller
@@ -12,7 +12,7 @@ class QuestionController extends Controller
      */
     public function index()
     {
-        //
+        return Question::latest()->get();
     }
 
     /**
